@@ -136,7 +136,7 @@ export const CaptureModes: React.FC<CaptureModesProps> = ({ onOpenInstantMeeting
 
               <button
                 onClick={onOpenInstantMeeting}
-                className="w-full py-2.5 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white text-xs font-bold hover:opacity-90 shadow-sm transition-opacity flex items-center justify-center gap-2"
+                className="w-full py-2.5 rounded-xl bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-md transition-colors flex items-center justify-center gap-2 cursor-pointer"
               >
                 <Play className="w-3.5 h-3.5 fill-current" />
                 Test In-CRM Room Now
@@ -185,7 +185,7 @@ export const CaptureModes: React.FC<CaptureModesProps> = ({ onOpenInstantMeeting
                 />
                 <button
                   type="submit"
-                  className="w-full py-2 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-xs font-bold hover:opacity-90 shadow-sm transition-opacity"
+                  className="w-full py-2 rounded-xl bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-md transition-colors cursor-pointer"
                 >
                   🤖 Dispatch AI Assistant
                 </button>

@@ -250,7 +250,7 @@ export const AttendanceSection: React.FC = () => {
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={handleSendBroadcast}
-                className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white text-xs font-bold shadow-md hover:opacity-90 transition-opacity cursor-pointer"
+                className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-md transition-colors cursor-pointer"
               >
                 <BellRing className="w-3.5 h-3.5" />
                 <span>Broadcast Notice</span>

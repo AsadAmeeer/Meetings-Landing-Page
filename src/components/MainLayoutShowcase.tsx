@@ -52,7 +52,7 @@ export const MainLayoutShowcase: React.FC<MainLayoutShowcaseProps> = ({ onOpenIn
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={onOpenInstantMeeting}
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-gradient-to-r from-pink-500 via-purple-600 to-morphe-navy text-white text-xs font-bold shadow-lg shadow-purple-500/20 transition-transform cursor-pointer"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-lg shadow-pink-600/25 transition-all cursor-pointer"
               >
                 <span>More About Us</span>
                 <ArrowRight className="w-4 h-4" />
@@ -277,7 +277,7 @@ export const MainLayoutShowcase: React.FC<MainLayoutShowcaseProps> = ({ onOpenIn
 
               <button 
                 onClick={onOpenInstantMeeting}
-                className="w-full py-2.5 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white text-xs font-bold shadow-md hover:opacity-90 transition-opacity cursor-pointer"
+                className="w-full py-2.5 rounded-xl bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-md transition-colors cursor-pointer"
               >
                 Join Mobile Room
               </button>
@@ -312,7 +312,7 @@ export const MainLayoutShowcase: React.FC<MainLayoutShowcaseProps> = ({ onOpenIn
 
               <button 
                 onClick={onOpenSendBot}
-                className="w-full py-2.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-xs font-bold shadow-md hover:opacity-90 transition-opacity cursor-pointer"
+                className="w-full py-2.5 rounded-xl bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-md transition-colors cursor-pointer"
               >
                 Send AI Bot Link
               </button>

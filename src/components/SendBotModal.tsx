@@ -111,9 +111,9 @@ export const SendBotModal: React.FC<SendBotModalProps> = ({ isOpen, onClose }) =
               </button>
               <button
                 type="submit"
-                className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[#FEDBFC] via-purple-600 to-indigo-600 text-slate-950 font-bold text-xs shadow-lg shadow-purple-500/25 hover:shadow-xl hover:scale-105 transition-all"
+                className="flex items-center gap-2 px-6 py-3 rounded-full bg-[#DB2777] hover:bg-[#BE185D] text-white font-bold text-xs shadow-lg shadow-pink-600/25 hover:shadow-xl hover:scale-105 transition-all cursor-pointer"
               >
-                <Bot className="w-4 h-4 text-purple-950" />
+                <Bot className="w-4 h-4 text-white" />
                 <span>Launch Bot Dispatcher</span>
                 <ArrowRight className="w-4 h-4" />
               </button>

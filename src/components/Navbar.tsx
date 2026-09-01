@@ -79,7 +79,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInstantMeeting, onOpenSend
             </button>
             <button
               onClick={() => { setMobileMenuOpen(false); onOpenInstantMeeting(); }}
-              className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold text-xs shadow-md"
+              className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-[#DB2777] hover:bg-[#BE185D] text-white font-bold text-xs shadow-md transition-colors"
             >
               <Video className="w-4 h-4" />
               <span>🚀 Launch Instant Meeting — Free</span>
