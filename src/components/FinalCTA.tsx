@@ -69,7 +69,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenInstantMeeting, onOpen
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={onOpenInstantMeeting}
-              className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-[#DB2777] hover:bg-[#BE185D] text-white font-bold text-sm lg:text-base shadow-xl shadow-pink-600/30 hover:shadow-pink-600/50 transition-all cursor-pointer"
+              className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-[#FEDBFC] hover:bg-[#fca5f9] text-slate-900 font-extrabold text-sm lg:text-base border border-[#f59ef2]/60 shadow-lg shadow-purple-500/15 hover:shadow-xl transition-all cursor-pointer"
             >
               <span>🚀 Launch Instant Meeting — Free</span>
             </motion.button>

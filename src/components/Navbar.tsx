@@ -40,9 +40,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInstantMeeting, onOpenSend
 
             <button
               onClick={onOpenInstantMeeting}
-              className="group relative inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-lg shadow-pink-600/25 hover:shadow-pink-600/40 hover:scale-[1.02] active:scale-[0.98] transition-all overflow-hidden cursor-pointer"
+              className="group relative inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#FEDBFC] hover:bg-[#fca5f9] text-slate-900 text-xs font-extrabold border border-[#f59ef2]/60 shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all overflow-hidden cursor-pointer"
             >
-              <Video className="w-4 h-4 text-pink-100" />
+              <Video className="w-4 h-4 text-purple-700" />
               <span>Launch Instant Meeting</span>
             </button>
           </div>
@@ -79,9 +79,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInstantMeeting, onOpenSend
             </button>
             <button
               onClick={() => { setMobileMenuOpen(false); onOpenInstantMeeting(); }}
-              className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-[#DB2777] hover:bg-[#BE185D] text-white font-bold text-xs shadow-md transition-colors"
+              className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-[#FEDBFC] hover:bg-[#fca5f9] text-slate-900 font-extrabold text-xs border border-[#f59ef2]/60 shadow-md transition-colors"
             >
-              <Video className="w-4 h-4" />
+              <Video className="w-4 h-4 text-purple-700" />
               <span>🚀 Launch Instant Meeting — Free</span>
             </button>
           </div>

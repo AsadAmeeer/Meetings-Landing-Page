@@ -210,19 +210,19 @@ export const InstantMeetingModal: React.FC<InstantMeetingModalProps> = ({ isOpen
             <div className="flex border-b border-slate-800 p-2 bg-slate-950">
               <button 
                 onClick={() => setActiveTab('transcript')}
-                className={`flex-1 py-2 text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 ${activeTab === 'transcript' ? 'bg-[#DB2777] text-white shadow' : 'text-slate-400 hover:text-white'}`}
+                className={`flex-1 py-2 text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 ${activeTab === 'transcript' ? 'bg-[#FEDBFC] text-slate-900 shadow' : 'text-slate-400 hover:text-white'}`}
               >
                 <MessageSquare className="w-3.5 h-3.5" /> Live Transcript
               </button>
               <button 
                 onClick={() => setActiveTab('crm')}
-                className={`flex-1 py-2 text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 ${activeTab === 'crm' ? 'bg-[#DB2777] text-white shadow' : 'text-slate-400 hover:text-white'}`}
+                className={`flex-1 py-2 text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 ${activeTab === 'crm' ? 'bg-[#FEDBFC] text-slate-900 shadow' : 'text-slate-400 hover:text-white'}`}
               >
                 <CheckCircle2 className="w-3.5 h-3.5" /> CRM Tasks ({tasks.length})
               </button>
               <button 
                 onClick={() => setActiveTab('ai')}
-                className={`flex-1 py-2 text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 ${activeTab === 'ai' ? 'bg-[#DB2777] text-white shadow' : 'text-slate-400 hover:text-white'}`}
+                className={`flex-1 py-2 text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 ${activeTab === 'ai' ? 'bg-[#FEDBFC] text-slate-900 shadow' : 'text-slate-400 hover:text-white'}`}
               >
                 <Sparkles className="w-3.5 h-3.5" /> Copilot
               </button>
@@ -310,7 +310,7 @@ export const InstantMeetingModal: React.FC<InstantMeetingModalProps> = ({ isOpen
                     placeholder="Ask about budget, risks, deadlines..."
                     className="flex-1 px-3 py-2 text-xs rounded-xl bg-slate-800 border border-slate-700 text-white placeholder-slate-400 focus:outline-none focus:border-purple-500"
                   />
-                  <button type="submit" className="px-3 py-2 bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-semibold rounded-xl transition-colors cursor-pointer">
+                  <button type="submit" className="px-3 py-2 bg-[#FEDBFC] hover:bg-[#fca5f9] text-slate-900 text-xs font-extrabold rounded-xl border border-[#f59ef2]/60 transition-colors cursor-pointer">
                     Ask
                   </button>
                 </form>
