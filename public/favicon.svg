@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Rounded Dark Background Tile -->
+  <rect width="64" height="64" rx="16" fill="#0b1021" />
+  
+  <g transform="translate(6, 6) scale(0.48)" fill="#ffffff">
+    <!-- Bottom-left circle node -->
+    <circle cx="18" cy="62" r="9.5" />
+    
+    <!-- Bridge connection from circle to first diagonal pill -->
+    <path d="M 18 52.5 C 24 52.5 28 55 33 60 L 25 71.5 C 21 68 18 71.5 18 71.5 Z" />
+
+    <!-- First Diagonal Rounded Pill -->
+    <rect x="22" y="18" width="16" height="52" rx="8" transform="rotate(-32 30 44)" />
+
+    <!-- Second Parallel Diagonal Rounded Pill -->
+    <rect x="52" y="18" width="16" height="52" rx="8" transform="rotate(-32 60 44)" />
+
+    <!-- Top-Right Floating Circular Dot -->
+    <circle cx="94" cy="24" r="7.5" />
+  </g>
+</svg>
