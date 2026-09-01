@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInstantMeeting, onOpenSendBot 
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={onOpenInstantMeeting}
-                className="flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full bg-gradient-to-r from-[#FEDBFC] via-purple-600 to-indigo-600 text-slate-950 font-bold text-xs sm:text-sm shadow-xl shadow-purple-500/25 hover:shadow-purple-500/40 transition-all cursor-pointer"
+                className="flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full bg-[#DB2777] hover:bg-[#BE185D] text-white font-bold text-xs sm:text-sm shadow-xl shadow-pink-600/30 hover:shadow-pink-600/50 transition-all cursor-pointer"
               >
                 <span>🚀 Launch Instant Meeting — Free</span>
               </motion.button>

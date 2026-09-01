@@ -40,10 +40,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInstantMeeting, onOpenSend
 
             <button
               onClick={onOpenInstantMeeting}
-              className="group relative inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-pink-500 via-purple-600 to-morphe-navy text-white text-xs font-bold shadow-lg shadow-purple-500/20 hover:shadow-purple-500/35 hover:scale-[1.02] active:scale-[0.98] transition-all overflow-hidden"
+              className="group relative inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#DB2777] hover:bg-[#BE185D] text-white text-xs font-bold shadow-lg shadow-pink-600/25 hover:shadow-pink-600/40 hover:scale-[1.02] active:scale-[0.98] transition-all overflow-hidden cursor-pointer"
             >
-              <span className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <Video className="w-4 h-4 text-pink-200" />
+              <Video className="w-4 h-4 text-pink-100" />
               <span>Launch Instant Meeting</span>
             </button>
           </div>
