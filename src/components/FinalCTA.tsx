@@ -11,7 +11,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenInstantMeeting, onOpen
   return (
     <section className="py-20 lg:py-32 relative bg-gradient-to-b from-white via-purple-50/60 to-white overflow-hidden">
       {/* Soft Ambient Glows */}
-      <div className="absolute top-0 right-1/4 w-[600px] h-[600px] bg-gradient-to-br from-pink-200/30 via-purple-200/30 to-transparent rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 right-1/4 w-[600px] h-[600px] bg-gradient-to-br from-[#FEDBFC]/40 via-purple-200/30 to-transparent rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-[600px] h-[600px] bg-gradient-to-tr from-purple-200/30 via-indigo-200/30 to-transparent rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -21,7 +21,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenInstantMeeting, onOpen
           whileInView={{ opacity: 1, scale: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="rounded-3xl bg-gradient-to-br from-white via-purple-50/40 to-pink-50/30 border border-purple-200/80 p-10 lg:p-16 text-center relative overflow-hidden shadow-2xl shadow-purple-500/10"
+          className="rounded-3xl bg-gradient-to-br from-white via-purple-50/40 to-[#FEDBFC]/30 border border-purple-200/80 p-10 lg:p-16 text-center relative overflow-hidden shadow-2xl shadow-purple-500/10"
         >
           
           <motion.div 
@@ -29,9 +29,9 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenInstantMeeting, onOpen
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-100 border border-pink-200 text-pink-700 text-xs font-extrabold uppercase tracking-wider mb-6 shadow-xs"
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FEDBFC] border border-[#fcc4f9] text-purple-900 text-xs font-extrabold uppercase tracking-wider mb-6 shadow-xs"
           >
-            <Sparkles className="w-3.5 h-3.5 text-pink-500" />
+            <Sparkles className="w-3.5 h-3.5 text-purple-600" />
             <span>MorpheLabs Meetings Intelligence</span>
           </motion.div>
 
@@ -69,7 +69,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenInstantMeeting, onOpen
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={onOpenInstantMeeting}
-              className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 text-white font-bold text-sm lg:text-base shadow-xl shadow-purple-500/25 hover:shadow-2xl transition-all cursor-pointer"
+              className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-gradient-to-r from-[#FEDBFC] via-purple-600 to-indigo-600 text-slate-950 font-bold text-sm lg:text-base shadow-xl shadow-purple-500/25 hover:shadow-2xl transition-all cursor-pointer"
             >
               <span>🚀 Launch Instant Meeting — Free</span>
             </motion.button>

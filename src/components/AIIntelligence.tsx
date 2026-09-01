@@ -40,9 +40,9 @@ export const AIIntelligence: React.FC = () => {
   };
 
   const steps = [
-    { num: 1, title: 'Meeting Audio', desc: 'Stream or Upload', bg: 'bg-pink-100', text: 'text-pink-600' },
+    { num: 1, title: 'Meeting Audio', desc: 'Stream or Upload', bg: 'bg-[#FEDBFC]', text: 'text-purple-900' },
     { num: 2, title: 'AI Transcription', desc: 'Speaker Diarization', bg: 'bg-purple-100', text: 'text-purple-600' },
-    { num: 3, title: 'Meeting Intelligence', desc: 'Intent & Sentiment', bg: 'bg-gradient-to-r from-pink-500 to-purple-600', text: 'text-white', highlight: true },
+    { num: 3, title: 'Meeting Intelligence', desc: 'Intent & Sentiment', bg: 'bg-gradient-to-r from-[#FEDBFC] via-purple-600 to-indigo-600', text: 'text-white', highlight: true },
     { num: 4, title: 'Action Items', desc: 'Auto Detected', bg: 'bg-indigo-100', text: 'text-indigo-600' },
     { num: 5, title: 'CRM Tasks', desc: 'Assigned with Dates', bg: 'bg-emerald-100', text: 'text-emerald-600' }
   ];
@@ -52,8 +52,8 @@ export const AIIntelligence: React.FC = () => {
       icon: FileText,
       title: 'Executive Summaries',
       desc: '4-sentence high-level overview of what was decided.',
-      bg: 'bg-pink-100',
-      iconColor: 'text-pink-600'
+      bg: 'bg-[#FEDBFC]',
+      iconColor: 'text-purple-800'
     },
     {
       icon: CheckSquare,
@@ -81,7 +81,7 @@ export const AIIntelligence: React.FC = () => {
   return (
     <section id="ai-intelligence" className="py-20 lg:py-32 relative bg-gradient-to-b from-[#f8fafc] via-[#faf9fe] to-[#f8fafc] text-slate-900 overflow-hidden">
       {/* Background Ambient Glows */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-pink-300/20 via-purple-300/20 to-transparent rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-[#FEDBFC]/40 via-purple-300/20 to-transparent rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-tr from-purple-300/20 via-indigo-300/20 to-transparent rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -94,8 +94,8 @@ export const AIIntelligence: React.FC = () => {
           transition={{ duration: 0.7 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-100 border border-pink-200 text-pink-700 text-xs font-extrabold uppercase tracking-wider mb-4 shadow-xs">
-            <Sparkles className="w-3.5 h-3.5 text-pink-500" />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FEDBFC] border border-[#fcc4f9] text-purple-900 text-xs font-extrabold uppercase tracking-wider mb-4 shadow-xs">
+            <Sparkles className="w-3.5 h-3.5 text-purple-600" />
             <span>Automated CRM Pipeline</span>
           </div>
 

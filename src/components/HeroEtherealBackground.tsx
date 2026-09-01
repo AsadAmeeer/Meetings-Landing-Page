@@ -35,7 +35,7 @@ export const HeroEtherealBackground: React.FC = () => {
         <motion.div 
           animate={{ scale: [0.92, 1.08, 0.92], opacity: [0.7, 1, 0.7] }}
           transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute inset-4 rounded-full bg-gradient-to-tr from-cyan-400/40 via-purple-500/40 to-pink-400/35 blur-3xl"
+          className="absolute inset-4 rounded-full bg-gradient-to-tr from-cyan-400/40 via-purple-500/40 to-[#FEDBFC]/50 blur-3xl"
         />
 
         {/* Outer Rotating Golden & Violet Orbit Ring */}
@@ -63,7 +63,7 @@ export const HeroEtherealBackground: React.FC = () => {
               opacity: [0.85, 1, 0.85]
             }}
             transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-            className="w-[75%] h-[75%] rounded-full bg-gradient-to-tr from-cyan-400/70 via-purple-600/60 to-pink-400/50 blur-xl"
+            className="w-[75%] h-[75%] rounded-full bg-gradient-to-tr from-cyan-400/70 via-purple-600/60 to-[#FEDBFC]/60 blur-xl"
           />
 
           {/* Core White/Cyan Light Spark */}
@@ -92,7 +92,7 @@ export const HeroEtherealBackground: React.FC = () => {
             <stop offset="0%" stopColor="#818cf8" stopOpacity="0.2" />
             <stop offset="25%" stopColor="#38bdf8" stopOpacity="0.8" />
             <stop offset="50%" stopColor="#c084fc" stopOpacity="0.9" />
-            <stop offset="75%" stopColor="#f472b6" stopOpacity="0.8" />
+            <stop offset="75%" stopColor="#FEDBFC" stopOpacity="0.9" />
             <stop offset="100%" stopColor="#38bdf8" stopOpacity="0.2" />
           </linearGradient>
 
@@ -183,13 +183,13 @@ export const HeroEtherealBackground: React.FC = () => {
       <motion.div 
         animate={{ y: [14, -14, 14], rotate: [0, -30, 0] }}
         transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-        className="absolute top-1/4 right-[20%] w-7 h-7 border-2 border-purple-400/60 bg-gradient-to-tr from-purple-200/50 to-pink-200/60 rounded-md rotate-12 backdrop-blur-xs shadow-lg shadow-purple-400/30"
+        className="absolute top-1/4 right-[20%] w-7 h-7 border-2 border-purple-400/60 bg-gradient-to-tr from-purple-200/50 to-[#FEDBFC]/60 rounded-md rotate-12 backdrop-blur-xs shadow-lg shadow-purple-400/30"
       />
 
       <motion.div 
         animate={{ y: [-16, 16, -16], scale: [1, 1.3, 1] }}
         transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
-        className="absolute bottom-1/4 right-[28%] w-10 h-10 rounded-full bg-gradient-to-r from-amber-300/60 to-pink-300/50 blur-[2px] shadow-[0_0_30px_rgba(251,191,36,0.5)]"
+        className="absolute bottom-1/4 right-[28%] w-10 h-10 rounded-full bg-gradient-to-r from-amber-300/60 to-[#FEDBFC]/60 blur-[2px] shadow-[0_0_30px_rgba(251,191,36,0.5)]"
       />
 
       <motion.div 

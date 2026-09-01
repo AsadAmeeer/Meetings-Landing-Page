@@ -8,7 +8,7 @@ export const AdvantagesSection: React.FC = () => {
       title: 'Triple-Mode Capture',
       description: 'Seamlessly switch between built-in MorpheLabs rooms, external Zoom/Meet bot recording, and past file imports in one dashboard.',
       icon: Layers,
-      color: 'from-pink-500 to-purple-600'
+      color: 'from-[#FEDBFC] to-purple-600'
     },
     {
       title: 'Zero-Lag CRM Workflow Action',
@@ -32,13 +32,13 @@ export const AdvantagesSection: React.FC = () => {
       title: 'Universal Email Invites with .ics Attachments',
       description: 'Real .ics calendar invites delivered directly via SMTP/Zoho that sync into Google, Apple, Outlook, and Zoho calendars without OAuth token grants.',
       icon: Mail,
-      color: 'from-pink-500 to-rose-600'
+      color: 'from-[#FEDBFC] to-indigo-600'
     },
     {
       title: 'No “Per-Seat AI Tax”',
       description: 'No $15–$30/user/month upsells just to summarize conversations.',
       icon: ShieldCheck,
-      color: 'from-purple-600 to-pink-600'
+      color: 'from-purple-600 to-[#FEDBFC]'
     }
   ];
 
@@ -54,8 +54,8 @@ export const AdvantagesSection: React.FC = () => {
           transition={{ duration: 0.7 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-100/80 border border-pink-200 text-pink-700 text-xs font-extrabold uppercase tracking-wider mb-4 shadow-xs">
-            <Sparkles className="w-3.5 h-3.5 text-pink-500" />
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FEDBFC] border border-[#fcc4f9] text-purple-900 text-xs font-extrabold uppercase tracking-wider mb-4 shadow-xs">
+            <Sparkles className="w-3.5 h-3.5 text-purple-600" />
             <span>Why MorpheLabs Wins</span>
           </div>
 

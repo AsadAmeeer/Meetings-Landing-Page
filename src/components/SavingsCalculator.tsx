@@ -18,7 +18,7 @@ export const SavingsCalculator: React.FC = () => {
       seats: 5,
       name: 'Small Team (5 seats)',
       badge: 'Startup Stack',
-      badgeColor: 'bg-pink-100 text-pink-700',
+      badgeColor: 'bg-[#FEDBFC] text-purple-900',
       saving: '$2,400',
       desc: 'Replaces Zoom + Read AI ($20/seat)',
       replaces: ['$100/mo Zoom Pro', '$100/mo Read AI', 'Calendly + Zapier connectors']

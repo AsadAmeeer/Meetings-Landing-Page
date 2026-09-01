@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInstantMeeting, onOpenSendBot 
               transition={{ delay: 0.1, duration: 0.6 }}
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-100/90 border border-purple-200/90 text-purple-700 text-[10px] sm:text-xs font-extrabold tracking-wide uppercase shadow-xs"
             >
-              <Sparkles className="w-3.5 h-3.5 text-pink-500" />
+              <Sparkles className="w-3.5 h-3.5 text-[#FEDBFC]" />
               <span>⚡ THE ALL-IN-ONE MEETING SUITE: NATIVE VIDEO ROOMS + AI BOT FOR ZOOM &amp; GOOGLE MEET</span>
             </motion.div>
 
@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInstantMeeting, onOpenSendBot 
             >
               Never Take Meeting<br />
               Notes Again.<br />
-              <span className="bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#d946ef] via-purple-600 to-indigo-600 bg-clip-text text-transparent">
                 In Your Own Rooms,<br />
                 Or Anywhere Else.
               </span>
@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInstantMeeting, onOpenSendBot 
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={onOpenInstantMeeting}
-                className="flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 text-white font-bold text-xs sm:text-sm shadow-xl shadow-purple-500/25 hover:shadow-purple-500/40 transition-all cursor-pointer"
+                className="flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full bg-gradient-to-r from-[#FEDBFC] via-purple-600 to-indigo-600 text-slate-950 font-bold text-xs sm:text-sm shadow-xl shadow-purple-500/25 hover:shadow-purple-500/40 transition-all cursor-pointer"
               >
                 <span>🚀 Launch Instant Meeting — Free</span>
               </motion.button>

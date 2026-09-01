@@ -10,11 +10,11 @@ export const ProblemSection: React.FC = () => {
       title: 'The Zoom & Meet Silo',
       desc: 'You finish a 45-minute sales demo. The client agreed to 3 key milestones. Who writes the tasks? Who updates the CRM?',
       badge: 'Siloed Data',
-      color: 'pink',
-      gradient: 'from-pink-500 to-purple-600',
+      color: 'purple',
+      gradient: 'from-[#FEDBFC] to-purple-600',
       icon: Unplug,
-      badgeColor: 'text-pink-600',
-      dotColor: 'bg-pink-500',
+      badgeColor: 'text-purple-700',
+      dotColor: 'bg-[#FEDBFC]',
     },
     {
       num: '02',
@@ -45,7 +45,7 @@ export const ProblemSection: React.FC = () => {
   return (
     <section className="py-20 lg:py-28 relative bg-slate-50/50 overflow-hidden">
       {/* Decorative Blur Backgrounds */}
-      <div className="absolute top-1/2 left-10 -translate-y-1/2 w-80 h-80 bg-pink-200/20 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-10 -translate-y-1/2 w-80 h-80 bg-[#FEDBFC]/40 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute top-1/2 right-10 -translate-y-1/2 w-80 h-80 bg-purple-200/20 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">

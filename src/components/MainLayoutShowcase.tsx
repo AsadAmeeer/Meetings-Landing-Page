@@ -74,7 +74,7 @@ export const MainLayoutShowcase: React.FC<MainLayoutShowcaseProps> = ({ onOpenIn
 
               <motion.div 
                 whileHover={{ y: -4 }}
-                className="p-3 rounded-2xl bg-pink-50/60 border border-pink-100 text-center transition-shadow hover:shadow-md"
+                className="p-3 rounded-2xl bg-[#FEDBFC]/60 border border-[#FEDBFC] text-center transition-shadow hover:shadow-md"
               >
                 <div className="w-8 h-8 rounded-xl bg-pink-100 text-pink-600 flex items-center justify-center mx-auto mb-1">
                   <Bot className="w-4 h-4" />
